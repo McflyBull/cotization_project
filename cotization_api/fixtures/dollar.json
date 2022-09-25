@@ -1,0 +1,10 @@
+[
+    {
+      "model": "cotization_api.dollar",
+      "pk": 1,
+      "fields": {
+        "price": 143,
+        "stamp": ""
+      }
+    }
+]
