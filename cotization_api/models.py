@@ -10,7 +10,5 @@ class dollar(models.Model):
 
    #language = models.CharField(max_length=100)
 
-   price = models.IntegerField()
+   price = models.FloatField()
    stamp = models.CharField(max_length=100)
-
-

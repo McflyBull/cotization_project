@@ -11,4 +11,3 @@ class DollarSerializer(serializers.ModelSerializer):
        model = dollar
 
        fields = ('price','stamp')
-
