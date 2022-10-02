@@ -6,4 +6,4 @@ from django.utils.timezone import now
 
 class Dollar(models.Model):
    price = models.FloatField()
-   stamp = models.DateTimeField()
+   stamp = models.DateField()
