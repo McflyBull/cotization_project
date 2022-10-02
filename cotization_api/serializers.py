@@ -1,13 +1,13 @@
 from rest_framework import serializers
 
 
-from cotization_api.models import dollar
+
+from cotization_api.models import Dollar
+
 
 
 class DollarSerializer(serializers.ModelSerializer):
-
-   class Meta:
-
-       model = dollar
-
-       fields = ('price','stamp')
+    stamp = serializers.DateTimeField(required=False)
+    class Meta:
+       model = Dollar
+       fields = ('id', 'price','stamp')
